@@ -69,10 +69,10 @@ const QuoteForm: React.FC = () => {
                 <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-1">Service Type</label>
                 <select name="service" id="service" required className="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500" value={formData.service} onChange={handleChange}>
                   <option value="">Select a service</option>
-                  <option>Residential Cleaning</option>
-                  <option>Office Cleaning</option>
+                  <option>House Cleaning</option>
                   <option>Deep Cleaning</option>
-                  <option>Post-Construction Cleaning</option>
+                  <option>Regular Cleaning</option>
+                  <option>Move In/Out Cleaning</option>
                   <option>Other</option>
                 </select>
               </div>
