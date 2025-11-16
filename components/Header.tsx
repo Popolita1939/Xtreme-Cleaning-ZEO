@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { MenuIcon, XIcon } from './Icons';
 
@@ -6,17 +5,17 @@ const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
-    { href: '#inicio', label: 'Inicio' },
-    { href: '#servicios', label: 'Servicios' },
-    { href: '#nosotros', label: 'Nosotros' },
-    { href: '#galeria', label: 'Galería' },
-    { href: '#contacto', label: 'Contacto' },
+    { href: '#home', label: 'Home' },
+    { href: '#services', label: 'Services' },
+    { href: '#about', label: 'About' },
+    { href: '#gallery', label: 'Gallery' },
+    { href: '#contact', label: 'Contact' },
   ];
 
   return (
     <header className="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <a href="#inicio" className="text-2xl font-bold text-blue-600">
+        <a href="#home" className="text-2xl font-bold text-blue-600">
           Xtreme Cleaning
         </a>
         <nav className="hidden md:flex items-center space-x-6">
@@ -31,10 +30,10 @@ const Header: React.FC = () => {
           ))}
         </nav>
         <a
-          href="#cotizacion"
+          href="#quote"
           className="hidden md:inline-block bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-transform duration-300 hover:scale-105"
         >
-          Solicita tu limpieza aqui
+          Get a Quote
         </a>
         <div className="md:hidden">
           <button onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle Menu">
@@ -56,11 +55,11 @@ const Header: React.FC = () => {
               </a>
             ))}
             <a
-              href="#cotizacion"
+              href="#quote"
               onClick={() => setIsMenuOpen(false)}
               className="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition-transform duration-300 hover:scale-105"
             >
-              Solicitala Aqui!
+              Get a Quote Now!
             </a>
           </nav>
         </div>

@@ -1,38 +1,37 @@
-
 import React from 'react';
 import { UserGroupIcon, GlobeAltIcon, ClockIcon, ChatAlt2Icon, CheckCircleIcon } from './Icons';
 
 const advantages = [
   {
     icon: <UserGroupIcon className="h-10 w-10 text-white" />,
-    title: 'Personal Capacitado y Confiable',
-    description: 'Nuestro equipo está rigurosamente seleccionado y entrenado para ofrecer un servicio excepcional.',
+    title: 'Trained and Reliable Staff',
+    description: 'Our team is rigorously selected and trained to provide exceptional service.',
   },
   {
     icon: <GlobeAltIcon className="h-10 w-10 text-white" />,
-    title: 'Productos Ecológicos y Seguros',
-    description: 'Utilizamos productos amigables con el medio ambiente, seguros para tu familia y mascotas.',
+    title: 'Eco-Friendly and Safe Products',
+    description: 'We use environmentally friendly products that are safe for your family and pets.',
   },
   {
     icon: <ClockIcon className="h-10 w-10 text-white" />,
-    title: 'Puntualidad Garantizada',
-    description: 'Respetamos tu tiempo. Llegamos a la hora acordada y cumplimos con los plazos establecidos.',
+    title: 'Guaranteed Punctuality',
+    description: 'We respect your time. We arrive on schedule and meet all established deadlines.',
   },
   {
     icon: <ChatAlt2Icon className="h-10 w-10 text-white" />,
-    title: 'Atención Personalizada',
-    description: 'Escuchamos tus necesidades para ofrecerte un plan de limpieza que se ajuste perfectamente a ti.',
+    title: 'Personalized Attention',
+    description: 'We listen to your needs to offer you a cleaning plan that fits you perfectly.',
   },
   {
     icon: <CheckCircleIcon className="h-10 w-10 text-white" />,
-    title: 'Resultados Comprobables',
-    description: 'Nos enorgullecemos de la calidad de nuestro trabajo, con clientes satisfechos que nos respaldan.',
+    title: 'Proven Results',
+    description: 'We take pride in the quality of our work, with satisfied customers who back us up.',
   },
 ];
 
 const WhyChooseUs: React.FC = () => {
   return (
-    <section id="nosotros" className="py-20 bg-white">
+    <section id="about" className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           <div className="lg:w-1/2">
@@ -43,9 +42,9 @@ const WhyChooseUs: React.FC = () => {
             />
           </div>
           <div className="lg:w-1/2">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">¿Por Qué Elegirnos?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose Us?</h2>
             <p className="text-gray-600 mb-8">
-              En Xtreme Cleaning, no solo limpiamos, creamos ambientes saludables y armoniosos. Nuestra dedicación y atención al detalle nos diferencian.
+              At Xtreme Cleaning, we don't just clean, we create healthy and harmonious environments. Our dedication and attention to detail set us apart.
             </p>
             <div className="space-y-6">
               {advantages.map((advantage, index) => (

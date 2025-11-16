@@ -1,24 +1,23 @@
-
 import React from 'react';
 import { PhoneIcon, MailIcon, LocationMarkerIcon, FacebookIcon, InstagramIcon, TikTokIcon, WhatsAppIcon } from './Icons';
 
 const Contact: React.FC = () => {
   return (
-    <section id="contacto" className="py-20 bg-gray-50">
+    <section id="contact" className="py-20 bg-gray-50">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Ponte en Contacto</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Get in Touch</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-                ¿Tienes preguntas o estás listo para agendar? Contáctanos. ¡Estamos aquí para ayudarte!
+                Have questions or ready to schedule? Contact us. We're here to help!
             </p>
         </div>
         <div className="flex flex-col lg:flex-row gap-10">
           <div className="lg:w-1/2 bg-white p-8 rounded-lg shadow-md">
-            <h3 className="text-2xl font-semibold mb-6">Información de Contacto</h3>
+            <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
             <div className="space-y-4">
               <div className="flex items-center">
                 <LocationMarkerIcon className="h-6 w-6 text-blue-600 mr-4" />
-                <span>123 Clean Street, Tidyville, 12345</span>
+                <span>56 Bradrick Ln. West Milford, NJ 07480</span>
               </div>
               <div className="flex items-center">
                 <PhoneIcon className="h-6 w-6 text-blue-600 mr-4" />
@@ -32,11 +31,11 @@ const Contact: React.FC = () => {
             <div className="mt-8">
               <a href="https://wa.me/13472324984" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center bg-green-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-600 transition-colors duration-300 w-full text-center">
                 <WhatsAppIcon className="h-6 w-6 mr-2" />
-                Chatea con nosotros en WhatsApp
+                Chat with us on WhatsApp
               </a>
             </div>
             <div className="mt-8 pt-6 border-t border-gray-200">
-                <h4 className="text-lg font-semibold mb-4 text-center">Síguenos en Redes</h4>
+                <h4 className="text-lg font-semibold mb-4 text-center">Follow Us</h4>
                  <div className="flex justify-center space-x-6">
                     <a href="#" aria-label="Facebook" className="text-gray-500 hover:text-blue-800 transition-colors"><FacebookIcon className="h-8 w-8" /></a>
                     <a href="#" aria-label="Instagram" className="text-gray-500 hover:text-pink-600 transition-colors"><InstagramIcon className="h-8 w-8" /></a>
@@ -52,7 +51,7 @@ const Contact: React.FC = () => {
               style={{ border: 0 }}
               allowFullScreen={true}
               loading="lazy"
-              title="Ubicación de Xtreme Cleaning"
+              title="Xtreme Cleaning Location"
             ></iframe>
           </div>
         </div>
