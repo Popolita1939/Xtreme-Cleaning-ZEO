@@ -4,12 +4,12 @@ import { HomeIcon, OfficeBuildingIcon, SparklesIcon, TruckIcon, BeakerIcon } fro
 const services = [
   {
     icon: <HomeIcon className="h-12 w-12 text-blue-600 mb-4" />,
-    title: 'Residential Cleaning',
+    title: 'House Cleaning',
     description: 'We leave your home spotless, from regular cleanings to deep cleans, so you can enjoy your space.',
   },
   {
     icon: <OfficeBuildingIcon className="h-12 w-12 text-blue-600 mb-4" />,
-    title: 'Office Cleaning',
+    title: 'Regular Cleaning',
     description: 'A clean and organized work environment to improve productivity and your team\'s well-being.',
   },
   {
@@ -19,12 +19,12 @@ const services = [
   },
   {
     icon: <TruckIcon className="h-12 w-12 text-blue-600 mb-4" />,
-    title: 'Post-Construction Cleaning',
+    title: 'Move In Cleaning',
     description: 'We handle dust and construction debris so you can enjoy your new space without worries.',
   },
   {
     icon: <BeakerIcon className="h-12 w-12 text-blue-600 mb-4" />,
-    title: 'Specialized Services',
+    title: 'Move Out Cleaning',
     description: 'Specialized services to restore life and shine to your windows, carpets, and furniture.',
   },
 ];
