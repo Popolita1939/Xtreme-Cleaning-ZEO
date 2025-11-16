@@ -18,6 +18,7 @@ const Header: React.FC = () => {
         <a href="#home" className="text-2xl font-bold text-blue-600">
           Xtreme Cleaning
         </a>
+
         <nav className="hidden md:flex items-center space-x-6">
           {navLinks.map((link) => (
             <a

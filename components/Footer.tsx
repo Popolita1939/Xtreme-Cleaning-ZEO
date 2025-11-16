@@ -7,9 +7,9 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-2 text-blue-500">Xtreme Cleaning</h3>
-            <p className="text-gray-400 mb-4">Extreme cleaning for sparkling results. Your satisfaction is our priority.</p>
-             <div className="flex space-x-4 mt-4">
+            <h3 className="text-xl font-bold mb-4">Xtreme Cleaning</h3>
+             <p className="text-gray-400">Extreme cleaning for sparkling results. Your satisfaction is our priority.</p>
+              <div className="flex space-x-4 mt-4">
                 <a href="#" aria-label="Facebook" className="hover:text-blue-500 transition-colors"><FacebookIcon className="h-6 w-6" /></a>
                 <a href="#" aria-label="Instagram" className="hover:text-pink-500 transition-colors"><InstagramIcon className="h-6 w-6" /></a>
                 <a href="#" aria-label="TikTok" className="hover:text-gray-300 transition-colors"><TikTokIcon className="h-6 w-6" /></a>
@@ -18,11 +18,11 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="font-semibold text-lg mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              <li><a href="#home" className="text-gray-400 hover:text-white">Home</a></li>
-              <li><a href="#services" className="text-gray-400 hover:text-white">Services</a></li>
-              <li><a href="#about" className="text-gray-400 hover:text-white">About Us</a></li>
-              <li><a href="#gallery" className="text-gray-400 hover:text-white">Gallery</a></li>
-              <li><a href="#contact" className="text-gray-400 hover:text-white">Contact</a></li>
+              <li><a href="#inicio" className="text-gray-400 hover:text-white">Home</a></li>
+              <li><a href="#servicios" className="text-gray-400 hover:text-white">Services</a></li>
+              <li><a href="#nosotros" className="text-gray-400 hover:text-white">About Us</a></li>
+              <li><a href="#galeria" className="text-gray-400 hover:text-white">Gallery</a></li>
+              <li><a href="#contacto" className="text-gray-400 hover:text-white">Contact</a></li>
             </ul>
           </div>
           <div>
